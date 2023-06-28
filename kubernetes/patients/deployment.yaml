@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: measurements-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: measurements
+  template:
+    metadata:
+      labels:
+        app: measurements
+    spec:
+      containers:
+        - name: measurements
+          image: measurements:latest
+          ports:
+            - containerPort: 8000
