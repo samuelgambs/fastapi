@@ -45,9 +45,8 @@ app.add_middleware(
 )
 
 
-# app.include_router(patients_router, prefix="/api/v1/patients", tags=["patients"])
-# app.include_router(measurements_router, prefix="/api/v1/measurements", tags=["measurements"])
-app.include_router(routes, prefix="/api/v1", tags=["api"])
+
+app.include_router(routes, prefix="/api/v1/patient", tags=["api"])
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

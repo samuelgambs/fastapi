@@ -1,0 +1,21 @@
+patient_id,first_name,last_name,age,condition,temperature,blood_pressure,high_risk
+1,John,Doe,55,Healthy,36.5,120/80,No
+2,Jane,Smith,30,Healthy,37.0,118/76,No
+3,James,Brown,50,High blood pressure,36.8,140/90,Yes
+4,Sarah,Johnson,68,Diabetes,36.6,130/82,Yes
+5,Michael,Williams,45,Healthy,36.9,122/78,No
+6,Elizabeth,Taylor,72,High cholesterol,37.2,135/88,Yes
+7,David,Jones,60,Heart disease,36.7,142/94,Yes
+8,Jennifer,Martin,35,Asthma,37.1,124/80,No
+9,Thomas,Thompson,40,Obesity,36.8,128/84,Yes
+10,Linda,Garcia,58,Arthritis,36.5,118/76,No
+11,Robert,Anderson,66,High blood pressure,36.7,136/86,Yes
+12,Patricia,Jackson,32,Healthy,37.0,120/78,No
+13,Joseph,White,70,Alzheimer's,36.5,132/86,Yes
+14,Susan,Harris,46,Depression,36.9,124/80,No
+15,Charles,Clark,51,High blood pressure,37.2,140/90,Yes
+16,Jessica,Lewis,29,Healthy,36.8,118/74,No
+17,William,Young,65,Diabetes,36.7,132/84,Yes
+18,Karen,Hall,38,Obesity,37.0,126/82,No
+19,Richard,Allen,59,Heart disease,36.6,144/92,Yes
+20,Barbara,Wright,75,Arthritis,37.1,122/78,No
